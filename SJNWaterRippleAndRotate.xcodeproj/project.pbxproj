@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37DF105222D830800009F851 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DF105122D830800009F851 /* AppDelegate.m */; };
+		37DF105822D830810009F851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DF105622D830810009F851 /* Main.storyboard */; };
+		37DF105A22D8309E0009F851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37DF105922D8309E0009F851 /* Assets.xcassets */; };
+		37DF105D22D8309E0009F851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DF105B22D8309E0009F851 /* LaunchScreen.storyboard */; };
+		37DF106022D8309E0009F851 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DF105F22D8309E0009F851 /* main.m */; };
+		37DF106A22D8309E0009F851 /* SJNWaterRippleAndRotateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DF106922D8309E0009F851 /* SJNWaterRippleAndRotateTests.m */; };
+		37DF107522D8309E0009F851 /* SJNWaterRippleAndRotateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DF107422D8309E0009F851 /* SJNWaterRippleAndRotateUITests.m */; };
+		37DF108822D831830009F851 /* WaterRippleAndView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DF108722D831830009F851 /* WaterRippleAndView.m */; };
+		37EEBC1922D8375000D34E83 /* Basic_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EEBC1722D8375000D34E83 /* Basic_ViewController.m */; };
+		37EEBC1A22D8375000D34E83 /* Basic_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37EEBC1822D8375000D34E83 /* Basic_ViewController.xib */; };
+		8DC6FCA2492080BF2B56C6D2 /* libPods-SJNWaterRippleAndRotate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A672CC4C11EEDA67F4FA6C6 /* libPods-SJNWaterRippleAndRotate.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37DF106622D8309E0009F851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37DF104522D830800009F851 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37DF104C22D830800009F851;
+			remoteInfo = SJNWaterRippleAndRotate;
+		};
+		37DF107122D8309E0009F851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37DF104522D830800009F851 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37DF104C22D830800009F851;
+			remoteInfo = SJNWaterRippleAndRotate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37DF104D22D830800009F851 /* SJNWaterRippleAndRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJNWaterRippleAndRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DF105022D830800009F851 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37DF105122D830800009F851 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37DF105722D830810009F851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37DF105922D8309E0009F851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37DF105C22D8309E0009F851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37DF105E22D8309E0009F851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37DF105F22D8309E0009F851 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37DF106522D8309E0009F851 /* SJNWaterRippleAndRotateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJNWaterRippleAndRotateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DF106922D8309E0009F851 /* SJNWaterRippleAndRotateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJNWaterRippleAndRotateTests.m; sourceTree = "<group>"; };
+		37DF106B22D8309E0009F851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37DF107022D8309E0009F851 /* SJNWaterRippleAndRotateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJNWaterRippleAndRotateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DF107422D8309E0009F851 /* SJNWaterRippleAndRotateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJNWaterRippleAndRotateUITests.m; sourceTree = "<group>"; };
+		37DF107622D8309E0009F851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37DF108622D831830009F851 /* WaterRippleAndView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterRippleAndView.h; sourceTree = "<group>"; };
+		37DF108722D831830009F851 /* WaterRippleAndView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterRippleAndView.m; sourceTree = "<group>"; };
+		37EEBC1622D8375000D34E83 /* Basic_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Basic_ViewController.h; sourceTree = "<group>"; };
+		37EEBC1722D8375000D34E83 /* Basic_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Basic_ViewController.m; sourceTree = "<group>"; };
+		37EEBC1822D8375000D34E83 /* Basic_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Basic_ViewController.xib; sourceTree = "<group>"; };
+		5A672CC4C11EEDA67F4FA6C6 /* libPods-SJNWaterRippleAndRotate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SJNWaterRippleAndRotate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8C64884D9D4F65EA843D54 /* Pods-SJNWaterRippleAndRotate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJNWaterRippleAndRotate.debug.xcconfig"; path = "Target Support Files/Pods-SJNWaterRippleAndRotate/Pods-SJNWaterRippleAndRotate.debug.xcconfig"; sourceTree = "<group>"; };
+		DF97D05513897E9ACD73FE96 /* Pods-SJNWaterRippleAndRotate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJNWaterRippleAndRotate.release.xcconfig"; path = "Target Support Files/Pods-SJNWaterRippleAndRotate/Pods-SJNWaterRippleAndRotate.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37DF104A22D830800009F851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC6FCA2492080BF2B56C6D2 /* libPods-SJNWaterRippleAndRotate.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF106222D8309E0009F851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF106D22D8309E0009F851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37DF104422D830800009F851 = {
+			isa = PBXGroup;
+			children = (
+				37DF104F22D830800009F851 /* SJNWaterRippleAndRotate */,
+				37DF106822D8309E0009F851 /* SJNWaterRippleAndRotateTests */,
+				37DF107322D8309E0009F851 /* SJNWaterRippleAndRotateUITests */,
+				37DF104E22D830800009F851 /* Products */,
+				8EE3EA1A18C4F86D5A54B3DF /* Pods */,
+				99223F005A58B43C9952C849 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37DF104E22D830800009F851 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37DF104D22D830800009F851 /* SJNWaterRippleAndRotate.app */,
+				37DF106522D8309E0009F851 /* SJNWaterRippleAndRotateTests.xctest */,
+				37DF107022D8309E0009F851 /* SJNWaterRippleAndRotateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37DF104F22D830800009F851 /* SJNWaterRippleAndRotate */ = {
+			isa = PBXGroup;
+			children = (
+				37DF108222D831110009F851 /* View */,
+				37DF105022D830800009F851 /* AppDelegate.h */,
+				37DF105122D830800009F851 /* AppDelegate.m */,
+				37EEBC1622D8375000D34E83 /* Basic_ViewController.h */,
+				37EEBC1722D8375000D34E83 /* Basic_ViewController.m */,
+				37EEBC1822D8375000D34E83 /* Basic_ViewController.xib */,
+				37DF105622D830810009F851 /* Main.storyboard */,
+				37DF105922D8309E0009F851 /* Assets.xcassets */,
+				37DF105B22D8309E0009F851 /* LaunchScreen.storyboard */,
+				37DF105E22D8309E0009F851 /* Info.plist */,
+				37DF105F22D8309E0009F851 /* main.m */,
+			);
+			path = SJNWaterRippleAndRotate;
+			sourceTree = "<group>";
+		};
+		37DF106822D8309E0009F851 /* SJNWaterRippleAndRotateTests */ = {
+			isa = PBXGroup;
+			children = (
+				37DF106922D8309E0009F851 /* SJNWaterRippleAndRotateTests.m */,
+				37DF106B22D8309E0009F851 /* Info.plist */,
+			);
+			path = SJNWaterRippleAndRotateTests;
+			sourceTree = "<group>";
+		};
+		37DF107322D8309E0009F851 /* SJNWaterRippleAndRotateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37DF107422D8309E0009F851 /* SJNWaterRippleAndRotateUITests.m */,
+				37DF107622D8309E0009F851 /* Info.plist */,
+			);
+			path = SJNWaterRippleAndRotateUITests;
+			sourceTree = "<group>";
+		};
+		37DF108222D831110009F851 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37DF108622D831830009F851 /* WaterRippleAndView.h */,
+				37DF108722D831830009F851 /* WaterRippleAndView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8EE3EA1A18C4F86D5A54B3DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D8C64884D9D4F65EA843D54 /* Pods-SJNWaterRippleAndRotate.debug.xcconfig */,
+				DF97D05513897E9ACD73FE96 /* Pods-SJNWaterRippleAndRotate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99223F005A58B43C9952C849 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A672CC4C11EEDA67F4FA6C6 /* libPods-SJNWaterRippleAndRotate.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37DF104C22D830800009F851 /* SJNWaterRippleAndRotate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DF107922D8309E0009F851 /* Build configuration list for PBXNativeTarget "SJNWaterRippleAndRotate" */;
+			buildPhases = (
+				7E79D86783E83ABA7B5F03C6 /* [CP] Check Pods Manifest.lock */,
+				37DF104922D830800009F851 /* Sources */,
+				37DF104A22D830800009F851 /* Frameworks */,
+				37DF104B22D830800009F851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJNWaterRippleAndRotate;
+			productName = SJNWaterRippleAndRotate;
+			productReference = 37DF104D22D830800009F851 /* SJNWaterRippleAndRotate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37DF106422D8309E0009F851 /* SJNWaterRippleAndRotateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DF107C22D8309E0009F851 /* Build configuration list for PBXNativeTarget "SJNWaterRippleAndRotateTests" */;
+			buildPhases = (
+				37DF106122D8309E0009F851 /* Sources */,
+				37DF106222D8309E0009F851 /* Frameworks */,
+				37DF106322D8309E0009F851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37DF106722D8309E0009F851 /* PBXTargetDependency */,
+			);
+			name = SJNWaterRippleAndRotateTests;
+			productName = SJNWaterRippleAndRotateTests;
+			productReference = 37DF106522D8309E0009F851 /* SJNWaterRippleAndRotateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37DF106F22D8309E0009F851 /* SJNWaterRippleAndRotateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DF107F22D8309E0009F851 /* Build configuration list for PBXNativeTarget "SJNWaterRippleAndRotateUITests" */;
+			buildPhases = (
+				37DF106C22D8309E0009F851 /* Sources */,
+				37DF106D22D8309E0009F851 /* Frameworks */,
+				37DF106E22D8309E0009F851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37DF107222D8309E0009F851 /* PBXTargetDependency */,
+			);
+			name = SJNWaterRippleAndRotateUITests;
+			productName = SJNWaterRippleAndRotateUITests;
+			productReference = 37DF107022D8309E0009F851 /* SJNWaterRippleAndRotateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37DF104522D830800009F851 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = tiaoxin;
+				TargetAttributes = {
+					37DF104C22D830800009F851 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					37DF106422D8309E0009F851 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 37DF104C22D830800009F851;
+					};
+					37DF106F22D8309E0009F851 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 37DF104C22D830800009F851;
+					};
+				};
+			};
+			buildConfigurationList = 37DF104822D830800009F851 /* Build configuration list for PBXProject "SJNWaterRippleAndRotate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37DF104422D830800009F851;
+			productRefGroup = 37DF104E22D830800009F851 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37DF104C22D830800009F851 /* SJNWaterRippleAndRotate */,
+				37DF106422D8309E0009F851 /* SJNWaterRippleAndRotateTests */,
+				37DF106F22D8309E0009F851 /* SJNWaterRippleAndRotateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37DF104B22D830800009F851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF105D22D8309E0009F851 /* LaunchScreen.storyboard in Resources */,
+				37EEBC1A22D8375000D34E83 /* Basic_ViewController.xib in Resources */,
+				37DF105A22D8309E0009F851 /* Assets.xcassets in Resources */,
+				37DF105822D830810009F851 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF106322D8309E0009F851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF106E22D8309E0009F851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E79D86783E83ABA7B5F03C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SJNWaterRippleAndRotate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37DF104922D830800009F851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF108822D831830009F851 /* WaterRippleAndView.m in Sources */,
+				37EEBC1922D8375000D34E83 /* Basic_ViewController.m in Sources */,
+				37DF106022D8309E0009F851 /* main.m in Sources */,
+				37DF105222D830800009F851 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF106122D8309E0009F851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF106A22D8309E0009F851 /* SJNWaterRippleAndRotateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF106C22D8309E0009F851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF107522D8309E0009F851 /* SJNWaterRippleAndRotateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37DF106722D8309E0009F851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37DF104C22D830800009F851 /* SJNWaterRippleAndRotate */;
+			targetProxy = 37DF106622D8309E0009F851 /* PBXContainerItemProxy */;
+		};
+		37DF107222D8309E0009F851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37DF104C22D830800009F851 /* SJNWaterRippleAndRotate */;
+			targetProxy = 37DF107122D8309E0009F851 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37DF105622D830810009F851 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37DF105722D830810009F851 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37DF105B22D8309E0009F851 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37DF105C22D8309E0009F851 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37DF107722D8309E0009F851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37DF107822D8309E0009F851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37DF107A22D8309E0009F851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D8C64884D9D4F65EA843D54 /* Pods-SJNWaterRippleAndRotate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SJNWaterRippleAndRotate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AAAA.com.SJNWaterRippleAndRotate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		37DF107B22D8309E0009F851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF97D05513897E9ACD73FE96 /* Pods-SJNWaterRippleAndRotate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SJNWaterRippleAndRotate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AAAA.com.SJNWaterRippleAndRotate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		37DF107D22D8309E0009F851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F2V5ZZ2ZD;
+				INFOPLIST_FILE = SJNWaterRippleAndRotateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AAAA.com.SJNWaterRippleAndRotateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SJNWaterRippleAndRotate.app/SJNWaterRippleAndRotate";
+			};
+			name = Debug;
+		};
+		37DF107E22D8309E0009F851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F2V5ZZ2ZD;
+				INFOPLIST_FILE = SJNWaterRippleAndRotateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AAAA.com.SJNWaterRippleAndRotateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SJNWaterRippleAndRotate.app/SJNWaterRippleAndRotate";
+			};
+			name = Release;
+		};
+		37DF108022D8309E0009F851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F2V5ZZ2ZD;
+				INFOPLIST_FILE = SJNWaterRippleAndRotateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AAAA.com.SJNWaterRippleAndRotateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SJNWaterRippleAndRotate;
+			};
+			name = Debug;
+		};
+		37DF108122D8309E0009F851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F2V5ZZ2ZD;
+				INFOPLIST_FILE = SJNWaterRippleAndRotateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AAAA.com.SJNWaterRippleAndRotateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SJNWaterRippleAndRotate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37DF104822D830800009F851 /* Build configuration list for PBXProject "SJNWaterRippleAndRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DF107722D8309E0009F851 /* Debug */,
+				37DF107822D8309E0009F851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37DF107922D8309E0009F851 /* Build configuration list for PBXNativeTarget "SJNWaterRippleAndRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DF107A22D8309E0009F851 /* Debug */,
+				37DF107B22D8309E0009F851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37DF107C22D8309E0009F851 /* Build configuration list for PBXNativeTarget "SJNWaterRippleAndRotateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DF107D22D8309E0009F851 /* Debug */,
+				37DF107E22D8309E0009F851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37DF107F22D8309E0009F851 /* Build configuration list for PBXNativeTarget "SJNWaterRippleAndRotateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DF108022D8309E0009F851 /* Debug */,
+				37DF108122D8309E0009F851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37DF104522D830800009F851 /* Project object */;
+}
